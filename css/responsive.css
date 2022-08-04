@@ -1,0 +1,48 @@
+@media (max-width: 625px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #principalContainter {
+        width: 375px;
+        height: 667px;
+    }
+
+    #secundaryContainer {
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    figure img {
+        display: none;
+    }
+
+    figure {
+        width: 100%;
+        height: 250px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(25, 25, 24, 0.2) .100%), url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    #promotionalContainer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #promotionalContainer #title, 
+    #priceContainer,
+    #promotionalContainer button,
+    article{
+        margin-top: 20px;
+    }
+
+    article p{
+        text-align: left;
+    }
+
+}
